@@ -1,0 +1,9 @@
+Enter file contents here
+num = raw_input()
+shift = int(raw_input)
+code = ""
+for dig in num:
+  new = (int(dig)+shift)%10
+  code = code+str(new)
+print code
+  
